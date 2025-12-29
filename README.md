@@ -97,23 +97,41 @@ The *seq_loc* field MUST assume ONLY the following format: ```genome_assembly:ch
 
 ### 2. Performing a multi-FASTA reconstruction
 i) Install dependencies
+
+a. Get the required libraries or packages
 ```
-!pip install pandas pyfaidx tqdm
-!apt-get update -qq
-!apt-get install -y samtools
+pip install pandas pyfaidx tqdm
+apt-get update -qq
+apt-get install -y samtools
 ```
+
+b. Get the cli version of fas2rdna_cli.py script that works for your OS
+- Linux OS
+``` /cli/cli-Lx/fas2rdna_cli.py```
+- Non-Linux (MacOS, Windows)
+```/cli/cli-NLx/fas2rdna_cli.py```
+
+
 ii) Run FAS2rDNA, specifying the folder path that contains your input file/s and optionally build a custom header
 ```
-python3 fas2rdna.py \
-  --input-dir /Users/Desktop/FAS2rDNA
+python3 fas2rdna_cli.py --input-dir /Users/Desktop/FAS2rDNA
 ```
 
 or cusomize the FASTA header
 ```
-python3 fas2rdna.py \
+python3 fas2rdna_cli.py \
   --input-dir /Users/Desktop/FAS2rDNA \
   --header "{sample_id}|{gene_id}|{seq_loc}|{description}"
 ```
+
+or customize the FASTA header + file name
+```
+python3 fas2rdna_cli.py \
+  --input-dir /Users/Desktop/FAS2rDNA \
+  --header "{sample_id}|{gene_id}|{seq_loc}|{description}" \
+  --combined-name "All_sequences.fasta"
+```
+
 iii) Validate the results by navigating to the *fas2rdna_output* folder inside the input directory. 
 #### c. Validating the results
 FAS2rDNA will generate the individual .fasta file from multiple text files and the combined .fasta file, compiling all multi-FASTA sequences in one file. The result map is in the following structure:
