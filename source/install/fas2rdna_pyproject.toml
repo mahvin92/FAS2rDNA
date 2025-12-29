@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codeenigma_runtime"
+version = '1.2.0'
+description = "CodeEnigma Runtime"
+include = [
+    { path = "codeenigma_runtime/codeenigma_runtime.cpython-312-x86_64-linux-gnu.so", format = "wheel" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.14"
+cryptography = ">=40.0.4"
+rich = ">=13.0.0"
+setuptools = ">=70.0.0"
+cython = ">=3.0.0"
+toml = ">=0.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
