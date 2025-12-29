@@ -7,6 +7,13 @@ FAS2rDNA solves the hassle of manually retrieving and formatting sequences from 
 
 Figure 1. Illustration of FAS2rDNA workflow.
 
+#### Links:
+
+Read the protocol here: [Protocols.io](https://dx.doi.org/10.17504/protocols.io.rm7vzenqxvx1/v1)
+
+Visit the official wesite here: [FAS2rDNA by ChordexBio](https://fas2rdna.chordexbio.com/)
+
+
 ### Purpose
 FAS2rDNA is designed for users who work with coordinate‑based genomic annotations rather than raw FASTA files. The major advantage of this workflow is that, given a minimal text input containing sample identifiers (sample_id) and genomic locations (seq_loc), the system reconstructs strand‑correct DNA sequences directly from reference assemblies. It operates in batch (multiple experiments), multi-assembly (detects different assembly versions like hg17, hg18, hg19, hg38 in humans), multi-loci (can reconstruct sequence from different DNA locations), auotomated formatting (compile multi-FASTA-formatted results, ready for downstream analyses), and multi-species (supports assemblies from humans to yeast genomes) workflows, giving users the speed, scalability, confidence and convenience needed to analyze and perform experiments using large genomic data.
 
@@ -179,6 +186,13 @@ Try [FAS2rDNA-Colab](https://github.com/mahvin92/FAS2rDNA-Colab)
 
 ### Reporting
 Comments and suggestions to improve FAS2rDNA-Colab are welcome. If you find any bug or problem, please open an [issue](https://github.com/mahvin92/FAS2rDNA/issues/new).
+
+---
+
+### Citation
+De los Santos, M. (2025). High-throughput isoform-wide miRNome sequence reconstruction in the TCGA-LUAD cohort using FAS2rDNA. Protocols.io. DOI: 10.17504/protocols.io.rm7vzenqxvx1/v1
+
+De los Santos, M.I. (2025). FAS2rDNA-Colab: A cloud-based workflow for pan-cancer, isoform-wide miRNome reconstitution across TCGA cohorts. Protocols.io DOI: 10.17504/protocols.io.14egn1xr6v5d/v1
 
 ---
 
