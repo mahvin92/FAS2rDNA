@@ -121,14 +121,14 @@ or cusomize the FASTA header
 ```
 python3 fas2rdna_cli.py \
   --input-dir /Users/Desktop/FAS2rDNA \
-  --header "{sample_id}|{gene_id}|{seq_loc}|{description}"
+  --header "{sample_id}|{seq_id}|{seq_loc}|{description}"
 ```
 
 or customize the FASTA header + file name
 ```
 python3 fas2rdna_cli.py \
   --input-dir /Users/Desktop/FAS2rDNA \
-  --header "{sample_id}|{gene_id}|{seq_loc}|{description}" \
+  --header "{sample_id}|{seq_id}|{seq_loc}|{description}" \
   --combined-name "All_sequences.fasta"
 ```
 
