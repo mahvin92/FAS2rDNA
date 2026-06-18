@@ -1,0 +1,29 @@
+sample_id	seq_loc	seq_id	description
+HUMAN_HG16_TEST	hg16:7:117548628-117548700:+	CFTR_exon11	Human CFTR gene exon 11 hg16
+HUMAN_HG17_TEST	hg17:7:116944078-116944150:+	CFTR_exon11	Human CFTR gene exon 11 hg17
+HUMAN_HG18_TEST	hg18:7:117095534-117095606:+	CFTR_exon11	Human CFTR gene exon 11 hg18
+HUMAN_HG19_TEST	hg19:9:106938220-106938244:+	hsa-miR-31-5p	Human mature miRNA hg19
+HUMAN_HG38_TEST	hg38:9:107005719-107005743:+	hsa-miR-31-5p	Human mature miRNA hg38
+HUMAN_HS1_TEST	hs1:7:117457290-117457360:+	CFTR_exon11	Human CFTR gene exon 11 hs1
+MOUSE_MM7_TEST	mm7:6:49700000-49700072:+	Cftr_exon11	Mouse Cftr gene mm7
+MOUSE_MM8_TEST	mm8:6:49700000-49700072:+	Cftr_exon11	Mouse Cftr gene mm8
+MOUSE_MM9_TEST	mm9:6:49700000-49700072:+	Cftr_exon11	Mouse Cftr gene mm9
+MOUSE_MM10_TEST	mm10:6:49701256-49701328:+	Cftr_exon11	Mouse Cftr gene mm10
+MOUSE_MM39_TEST	mm39:6:49684900-49684972:+	Cftr_exon11	Mouse Cftr gene mm39
+RAT_RN4_TEST	rn4:4:81200000-81200072:+	Cftr_rat	Rat Cftr gene rn4
+RAT_RN5_TEST	rn5:4:81200000-81200072:+	Cftr_rat	Rat Cftr gene rn5
+RAT_RN6_TEST	rn6:4:82500000-82500072:+	Cftr_rat	Rat Cftr gene rn6
+RAT_RN7_TEST	rn7:4:82500000-82500072:+	Cftr_rat	Rat Cftr gene rn7
+ZEBRAFISH_DANRER7_TEST	danRer7:25:27458000-27458072:+	tp53_zf	Zebrafish tp53 gene danRer7
+ZEBRAFISH_DANRER10_TEST	danRer10:5:82697675-82697747:+	tp53_zf	Zebrafish tp53 gene danRer10
+ZEBRAFISH_DANRER11_TEST	danRer11:5:82697675-82697747:+	tp53_zf	Zebrafish tp53 gene danRer11
+FRUITFLY_DM2_TEST	dm2:3L:13750000-13750072:+	wg_dm	Drosophila wingless gene dm2
+FRUITFLY_DM3_TEST	dm3:3L:13750000-13750072:+	wg_dm	Drosophila wingless gene dm3
+FRUITFLY_DM6_TEST	dm6:3L:13750000-13750072:+	wg_dm	Drosophila wingless gene dm6
+ELEGANS_CE4_TEST	ce4:I:14500000-14500072:+	unc-22_ce	C. elegans unc-22 gene ce4
+ELEGANS_CE6_TEST	ce6:I:14500000-14500072:+	unc-22_ce	C. elegans unc-22 gene ce6
+ELEGANS_CE10_TEST	ce10:I:14500000-14500072:+	unc-22_ce	C. elegans unc-22 gene ce10
+ELEGANS_CE11_TEST	ce11:I:14500000-14500072:+	unc-22_ce	C. elegans unc-22 gene ce11
+YEAST_SACCER1_TEST	sacCer1:chrIV:460000-460072:+	GAL1_yeast	S. cerevisiae GAL1 locus sacCer1
+YEAST_SACCER2_TEST	sacCer2:chrIV:460000-460072:+	GAL1_yeast	S. cerevisiae GAL1 locus sacCer2
+YEAST_SACCER3_TEST	sacCer3:chrIV:460000-460072:+	GAL1_yeast	S. cerevisiae GAL1 locus sacCer3
