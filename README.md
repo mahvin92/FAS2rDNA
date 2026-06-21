@@ -1,3 +1,5 @@
+> **Announcement:** As of 2026June15, FAS2rDNA Web is now available. Access the portal here for FREE: [FAS2rDNA Web](https://fas2rdna.chordexbio.com/)
+
 <img width="200" height="200" alt="FAS2rDNA logo" src="https://github.com/mahvin92/FAS2rDNA/blob/main/asset/FAS2rDNA%20logo/1.png"/>
 
 # FAS2rDNA
